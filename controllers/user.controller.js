@@ -3,7 +3,7 @@ import {
   createUser as createUserService,
   deleteUserService,
   updateUserService,
-} from "../service/user.service.js";
+} from "../services/user.service.js";
 
 export const getUser = (req, res) => {
   res.status(200).json({
